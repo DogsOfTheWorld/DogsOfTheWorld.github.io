@@ -16,3 +16,15 @@
 .rescuedmutt_image {
   width: 40%;
 }
+
+.link {
+  color:purple;
+}
+.link:hover {
+  color:purple;
+  background:pink;
+}
+
+.link:active, .link:focus {
+  color:blue;
+}

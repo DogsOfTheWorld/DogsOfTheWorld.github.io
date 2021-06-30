@@ -1,0 +1,44 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  max-width:800px:
+}
+
+.input {
+  width:100%;
+  display:block;
+  padding:10px 20px;
+  border:2px solid hotpink;
+  margin-bottom:10px;
+}
+
+.submit_button {
+  background:lightblue;
+}
+.entry {
+  background:lightpink;
+  width:50%;
+  text-align:center;
+  margin:auto;
+}
+
+.entry:hover {
+  background:lightblue;
+}
+
+.entry_text {
+  padding:2px;
+}
+
+.entry_text:hover {
+cursor:pointer;
+text-decoration:line-through;
+}
+
+
+.dark {
+  background:turquoise;
+  color:teal;
+}

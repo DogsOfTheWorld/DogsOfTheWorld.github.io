@@ -7,22 +7,21 @@ const multiplicationInput = document.querySelector('#multiplication')
 const divisionInput = document.querySelector('#division')
 
 const output = document.querySelector('#output')
-
+const color_toggle = document.querySelector('#color_toggle')
 additionInput.addEventListener('click', e => {
-  alert("clicked")
-  output.innerHTML = input1.value + input2.value
+  output.innerHTML = parseInt(input1.value) + parseInt(input2.value)
 })
 
 subtractionInput.addEventListener('click', e => {
-
+output.innerHTML = parseInt(input1.value) - parseInt(input2.value)
 })
 
 multiplicationInput.addEventListener('click', e => {
-
+output.innerHTML = parseInt(input1.value) * parseInt(input2.value)
 })
 
 divisionInput.addEventListener('click', e => {
-
+output.innerHTML = parseInt(input1.value) / parseInt(input2.value)
 })
 
 color_toggle.addEventListener('click', e => {

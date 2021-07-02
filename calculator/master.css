@@ -1,0 +1,24 @@
+.number_input {
+  border:2px solid turquoise;
+  color:teal;
+}
+
+.dark {
+  background:lightblue;
+  color:teal;
+}
+
+.button {
+  border-radius:50px;
+  border: 2px solid teal;
+  background:turquoise;
+  transition:1s;
+}
+
+.button:hover {
+  background:lightgreen;
+}
+
+.title {
+  font-family:"Georgia";
+}
